@@ -1,0 +1,26 @@
+# secrets / env
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# mac
+.DS_Store
+
+# data / sqlite
+*.db
+*.sqlite
+*.sqlite3
+data/
+exports/
+
+# Secrets (never commit)
+.env
+.env.*
+_secrets_local/
