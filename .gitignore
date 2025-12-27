@@ -2,16 +2,37 @@
 .env
 .env.*
 !.env.example
+!.env.template
 
-# python
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
 __pycache__/
 *.pyc
 .venv/
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
 
-# mac
-.DS_Store
+# Node
+node_modules/
+
+# Data / logs (必要なら増やす)
+data/
+*.db
+*.sqlite*
+*.log
+
+work/
+downloads/
+raw/
+exports/
+
+
+
 
 # data / sqlite
 *.db
