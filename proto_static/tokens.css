@@ -1,0 +1,101 @@
+/* =========================================
+   PoliticsRadar Design Tokens v0.1 (Variables Only)
+   - Neutral / Non-judgemental
+   - Persistence over emphasis
+   ========================================= */
+
+:root {
+  /* ----- Typography ----- */
+  --font-sans: ui-sans-serif, system-ui, -apple-system,
+               "Hiragino Kaku Gothic ProN",
+               "Noto Sans JP", "Segoe UI", Arial, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+
+  /* ----- Radius ----- */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+
+  /* ----- Spacing ----- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* ----- Base Neutral Palette ----- */
+  --bg: #0B0F14;              /* app background */
+  --surface-1: #0F1720;       /* primary card */
+  --surface-2: #121C27;       /* raised card */
+  --surface-3: #0E151E;       /* inset / panel */
+
+  --border-1: rgba(255,255,255,0.08);
+  --border-2: rgba(255,255,255,0.12);
+
+  --text-1: rgba(255,255,255,0.92); /* main */
+  --text-2: rgba(255,255,255,0.72); /* secondary */
+  --text-3: rgba(255,255,255,0.52); /* tertiary */
+  --text-4: rgba(255,255,255,0.36); /* muted */
+
+  /* ----- Accent (non-judgemental) ----- */
+  --accent: #6AA6C8;
+  --accent-weak: rgba(106,166,200,0.22);
+  --accent-border: rgba(106,166,200,0.28);
+
+  /* Optional neutral guide color */
+  --guide: #6FAE7E;
+  --guide-weak: rgba(111,174,126,0.18);
+  --guide-border: rgba(111,174,126,0.26);
+
+  /* ----- Shadows ----- */
+  --shadow-0: none;
+  --shadow-1: 0 1px 10px rgba(0,0,0,0.22);
+  --shadow-2: 0 6px 22px rgba(0,0,0,0.28);
+  --shadow-3: 0 14px 38px rgba(0,0,0,0.34);
+
+  --shadow-layered:
+    0 8px 26px rgba(0,0,0,0.22),
+    0 18px 46px rgba(0,0,0,0.18);
+
+  /* ----- Focus / Hover ----- */
+  --ring: 0 0 0 3px rgba(106,166,200,0.22);
+  --hover-tint: rgba(255,255,255,0.04);
+  --active-tint: rgba(255,255,255,0.06);
+
+  /* ----- Timeline / Persistence ----- */
+  --stroke-strong: rgba(255,255,255,0.26);
+  --stroke-normal: rgba(255,255,255,0.18);
+  --stroke-weak: rgba(255,255,255,0.12);
+
+  --fill-strong: rgba(255,255,255,0.14);
+  --fill-normal: rgba(255,255,255,0.10);
+  --fill-weak: rgba(255,255,255,0.06);
+
+  --age-0: 1.00;
+  --age-1: 0.84;
+  --age-2: 0.70;
+  --age-3: 0.58;
+  --age-4: 0.48;
+
+  /* ----- Component Defaults (referenced only) ----- */
+  --card-bg: var(--surface-1);
+  --card-border: var(--border-1);
+  --card-shadow: var(--shadow-1);
+
+  --chip-radius: 999px;
+  --chip-padding-y: 6px;
+  --chip-padding-x: 10px;
+
+  --btn-bg: rgba(255,255,255,0.06);
+  --btn-border: rgba(255,255,255,0.12);
+  --btn-text: rgba(255,255,255,0.86);
+}
